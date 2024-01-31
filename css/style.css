@@ -30,68 +30,70 @@
 #add-task{
     background-color: rgb(0, 170, 255);
     color: white;
-    border-radius: 3px;
-    padding: 3px; 
+    border: 2px solid rgb(0, 170, 255);
 }
 #add-section{
-    color: gray;
-    border: 1px solid gray;
-    border-radius: 2px;
-    padding: 3px;
+    color: lightgrey;
+    border: 2px solid lightgray;
 }
-
+#add-section, #add-task{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .main-content{
     margin: auto;
     width: 800px;
     background-color: white;
     padding: 10px 30px;
 }
-#new-task{
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#check, #cross{
+
+.check, .cross{
     width: 12px;
     height: 12px;
-    border-radius: 50%;
     font-size: 12px;
-    padding: 2px;
+    border-radius: 50%;
+    margin: 2px;
 }
-#check{
-    color: green;
-    border: 1px solid green;
+.check{
+    color: rgb(5, 206, 5);
+    border: 2px solid rgb(5, 206, 5);
+    padding: 3px;
 }
 .to-do-task{
     margin-bottom: 20px;
 }
-#editorial{
+.editorial{
     background-color: rgb(0, 145, 255);
 
 }
-#editorial, #goals, #recruiting, #mobile, #website, #sales{
+.editorial, .goals, .recruiting, .mobile, .website, .sales{
     color: white;
-    padding: 2px;
-    border-radius: 25%;
-    margin-right: 2px;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 4px;
+    font-size: smaller;
 }
-#goals{
+.goals{
     background-color: rgb(70, 7, 78);
 }
-#cross{
-    color: rgb(128, 0, 0);
-    border: 1px solid rgb(128, 0, 0);
+.cross{
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    padding: 3px 4px;
 }
-#recruiting{
+.recruiting{
     background-color:darkcyan;
 
 }
-#mobile{
+.mobile{
     background-color: orange;
 }
-#sales{
+.sales{
     background-color: rgb(51, 255, 0);
 }
-#website{
+.website{
     background-color: rgb(255, 0, 234);
 }
 #today, #upcoming, #new-task{
