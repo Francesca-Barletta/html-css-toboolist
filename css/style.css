@@ -59,7 +59,7 @@
 .check{
     color: rgb(5, 206, 5);
     border: 2px solid rgb(5, 206, 5);
-    padding: 3px;
+    padding: 4px;
 }
 .to-do-task{
     margin-bottom: 20px;
@@ -81,7 +81,7 @@
 .cross{
     color: rgb(255, 0, 0);
     border: 2px solid rgb(255, 0, 0);
-    padding: 3px 4px;
+    padding: 3px 5px;
 }
 .recruiting{
     background-color:darkcyan;
